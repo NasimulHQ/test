@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+img{
+    width: 100%;
+}
+/*...........header start............*/
+header{
+    height: 70px;
+    
+    
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+    padding-top: 17px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 15px;
+}
+.logo h1{
+    font-size: 30px;
+}
+.navbar {
+    width: 65%;
+    float: right;
+    padding-top: 25px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    padding: 1px 60px;
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+}
+
+
+/*............header end.......*/
+
+/*.......body image start....*/
+.bodyimg{
+    min-height: 500px;
+}
+.bdimg{
+  
+    overflow: hidden;
+}
+.bdimg img{
+    width: 100%;
+    
+}
+/*.......body image end....*/
+
+/*.....weekend gateway start.....*/
+.caption h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #bcb8b8;
+    padding-top: 45px;
+     text-transform: uppercase;
+}
+.everything{
+  padding: 0px 55px;
+    overflow: hidden;
+}
+.text h1{
+    padding-top: 20px; 
+    font-size: 30px;
+    color: #626262;
+}
+.text p{
+  padding-top: 20px; 
+    font-size: 14px;
+}
+.empty{
+    float: left;
+}
+.lifestyle{
+    width: 45%;
+padding: 60px 0px;
+float: left;
+margin-right: 102px;
+}
+.life2{
+    margin-right: 0px;
+}
+.lifetext h1{
+   color: #626262;   
+}
+.lifestyle h1{
+    padding: 20px 1px;
+}
+.photo img{
+    transition: 1s;
+}
+
+.photo img:hover{
+    transform: scale(1.1);
+}
+/*.....weekend gateway end.....*/
+
+/*.....sin up start.......*/
+.sin-up{
+    height: 285px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+}
+.sin-up h1{
+    padding-top: 100px;
+    color: #626262;
+}
+
+input {
+    height: 35px;
+    width: 400px;
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+    padding-top: 35px;
+}
+.drop{
+    position: absolute;
+    right: 432px;
+    top: 189px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin-left: 506px;
+    background-color: white;
+    border: 1px solid black;
+    color: #626262;
+}
+
+/*.....sin up end.......*/
+
+.content-bottom{
+    min-height: 780px;
+}
+/*footer start*/
+footer{
+    min-height: 100px;
+    background-color: #f0f0f0;
+}
+.terms{
+    float: left;
+}
+.terms p{
+    padding: 38px 122px;
+}
+.follow{
+    float: right;
+}
+.follow img{
+    width: 13px;
+}
+.follow ul{
+    list-style: none;
+    margin-right: 150px;
+     margin-top: 35px;
+}
+.follow ul li{   
+     padding: 1px 10px;
+    float: left;
+}
+/*footer end*/
